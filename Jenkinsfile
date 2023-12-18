@@ -1,4 +1,4 @@
-/* Norma Ochoa */
+/* Boris Stankovic */
 def mvnHome
 def pom
 
@@ -17,8 +17,8 @@ pipeline {
          steps {
             echo 'Getting Private Repo'
             git(
-               url: 'git@github.com:ochoadevops/jenkins-essential-app-form-class.git',
-               credentialsId: 'jenkins-id',
+               url: 'git@github.com:git4borisstankovic/petclinic-spring.git',
+               credentialsId: 'jenkinsnew',
                branch: 'main'
             )
 
