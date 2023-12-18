@@ -1,4 +1,4 @@
-/* Boris Stankovic */
+/* Boris Stankovic - Jenkins Course */
 def mvnHome
 def pom
 
