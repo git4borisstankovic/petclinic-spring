@@ -1,4 +1,4 @@
-/* Boris Stankovic */
+/* Boris Stankovic - Petclinic Project */
 def mvnHome
 def pom
 
