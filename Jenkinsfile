@@ -1,4 +1,4 @@
-/* Boris Stankovic - Jenkins Course */
+/* Boris Stankovic */
 def mvnHome
 def pom
 
@@ -18,7 +18,7 @@ pipeline {
             echo 'Getting Private Repo'
             git(
                url: 'git@github.com:git4borisstankovic/petclinic-spring.git',
-               credentialsId: 'jenkinsnew',
+               credentialsId: 'jenkins',
                branch: 'main'
             )
 
